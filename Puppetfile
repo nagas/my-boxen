@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.1.0"
+github "boxen", "2.3.3"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -33,3 +33,18 @@ github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "ohmyzsh",    "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
+github "virtualbox", "1.0.3" 
+github "vagrant",    "2.0.7"
+github "skype", "1.0.3"
+github "adium", "1.1.1"
+github "postbox", "1.0.0"
+github "github_for_mac", "1.0.1"
+github "vlc", "1.0.1"
+github "quicksilver", "1.0.1"
+github "dropbox", "1.1.0"
+github "evernote", "1.0.1", :repo => "jasonamyers/puppet-evernote"
+github "chrome", "1.1.0"
+github "cyberduck", "1.0.0"
+github "java", "1.1.1"
